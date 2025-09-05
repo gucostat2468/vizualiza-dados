@@ -2,7 +2,8 @@ import { MetricCard } from "@/components/MetricCard";
 import { SalesChart } from "@/components/SalesChart";
 import { RevenueChart } from "@/components/RevenueChart";
 import { TopProducts } from "@/components/TopProducts";
-import { BarChart3, DollarSign, ShoppingCart, TrendingUp, Users } from "lucide-react";
+import { ThemeToggle } from "@/components/ThemeToggle";
+import { BarChart3, DollarSign, ShoppingCart, TrendingUp, Users, Zap } from "lucide-react";
 
 const Index = () => {
   return (
@@ -11,9 +12,14 @@ const Index = () => {
       <header className="border-b border-border/50 bg-dashboard-card">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-2xl font-bold text-foreground">Dashboard de Vendas</h1>
-              <p className="text-muted-foreground">Visão geral do desempenho de vendas</p>
+            <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-2">
+                <Zap className="w-8 h-8 text-primary" />
+                <div>
+                  <h1 className="text-2xl font-bold text-foreground">Flex Studio</h1>
+                  <p className="text-muted-foreground">Dashboard Analytics & Gerenciamento</p>
+                </div>
+              </div>
             </div>
             <div className="flex items-center space-x-4">
               <div className="text-right">
@@ -22,6 +28,7 @@ const Index = () => {
                   {new Date().toLocaleDateString('pt-BR')}
                 </p>
               </div>
+              <ThemeToggle />
             </div>
           </div>
         </div>
