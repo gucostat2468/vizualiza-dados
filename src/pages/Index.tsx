@@ -13,10 +13,12 @@ const Index = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="flex items-center space-x-2">
-                <Zap className="w-8 h-8 text-primary" />
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 bg-gradient-flex rounded-lg flex items-center justify-center shadow-lg">
+                  <img src="/src/assets/flex-logo.svg" alt="Flex Studio" className="w-6 h-6" />
+                </div>
                 <div>
-                  <h1 className="text-2xl font-bold text-foreground">Flex Studio</h1>
+                  <h1 className="text-2xl font-bold bg-gradient-flex bg-clip-text text-transparent">Flex Studio</h1>
                   <p className="text-muted-foreground">Dashboard Analytics & Gerenciamento</p>
                 </div>
               </div>

@@ -17,16 +17,16 @@ All colors MUST be HSL.
     --popover: 240 10% 3.9%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 277 89% 61%;
+    --primary: 188 95% 45%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 277 20% 25%;
+    --secondary: 210 100% 55%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 200 10% 15%;
+    --muted-foreground: 200 5% 65%;
 
-    --accent: 277 89% 61%;
+    --accent: 155 85% 55%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
@@ -37,18 +37,18 @@ All colors MUST be HSL.
     --ring: 217 91% 60%;
 
     /* Flex Studio brand colors */
-    --dashboard-bg: 240 10% 3.9%;
-    --dashboard-card: 240 6% 10%;
-    --dashboard-accent: 277 89% 61%;
-    --dashboard-success: 142 71% 45%;
-    --dashboard-warning: 38 92% 50%;
+    --dashboard-bg: 210 20% 8%;
+    --dashboard-card: 210 15% 12%;
+    --dashboard-accent: 188 95% 45%;
+    --dashboard-success: 155 85% 55%;
+    --dashboard-warning: 45 95% 60%;
     --dashboard-danger: 0 84% 60%;
     
     /* Flex Studio gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(277 89% 61%) 0%, hsl(277 70% 50%) 100%);
-    --gradient-success: linear-gradient(135deg, hsl(142 71% 45%) 0%, hsl(158 64% 52%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(240 6% 10%) 0%, hsl(240 4% 8%) 100%);
-    --gradient-flex: linear-gradient(135deg, hsl(277 89% 61%) 0%, hsl(281 83% 53%) 50%, hsl(277 89% 61%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(210 100% 55%) 0%, hsl(188 95% 45%) 50%, hsl(155 85% 55%) 100%);
+    --gradient-success: linear-gradient(135deg, hsl(155 85% 55%) 0%, hsl(175 75% 50%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(210 15% 12%) 0%, hsl(210 10% 8%) 100%);
+    --gradient-flex: linear-gradient(135deg, hsl(210 100% 55%) 0%, hsl(188 95% 45%) 50%, hsl(155 85% 55%) 100%);
 
     --radius: 0.5rem;
 
@@ -79,17 +79,17 @@ All colors MUST be HSL.
     --popover: 240 6% 10%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 277 89% 61%;
+    --primary: 188 95% 45%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 277 20% 25%;
+    --secondary: 210 100% 55%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 200 15% 20%;
+    --muted-foreground: 200 10% 70%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 155 85% 55%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
